@@ -1,0 +1,92 @@
+div.home{
+    padding: 20px 100px 10px 40px;
+    background-color: gainsboro;
+    border: 1px solid black;
+}
+
+div.home a{
+    padding-right: 20px;
+}
+
+div.home h4{
+    padding-right: 20px;
+     display: inline;
+}
+
+div.profile{
+	background-color:gainsboro;
+	padding:2%;
+}
+
+
+div.outer{
+    padding: 4% 1% 1% 2%;
+    background-color:#e6e8c7;
+     width:90%;
+     top: 200px;
+     left: 100px;
+     margin-left:3%; 
+     margin-top:2%;
+}
+
+.float-my-children > * {
+    float:left;
+    margin-right:5px;
+}
+
+/* this is called a clearfix. it makes sure that the container's children floats are cleared, without using extra markup */
+
+.clearfix {
+    *zoom:1 /* for IE */
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+div.desc{
+    background-color: #efefed;   
+    height: 200px;
+    width: 60%;
+    padding: 4% 2% 2% 10%;
+    margin-left: 80px;
+}
+
+ ul.products {
+       background-color:whitesmoke;
+       width:90%;
+       height: 80%;
+       top: 100px;
+       left: 100px;
+       margin:1%; 
+    }
+
+    ul.products li {
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 3% 2% 2% 3%;
+    }
+
+ ul.products {
+       background-color:whitesmoke;
+       border: 1px solid ;
+       width:90%;
+       height: 80%;
+       top: 100px;
+       left: 100px;
+       margin-left:3%; 
+    }
+
+    ul.products li {
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 3% 2% 2% 3%;
+    }
